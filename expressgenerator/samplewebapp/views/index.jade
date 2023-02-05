@@ -1,0 +1,36 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Document
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+  body
+    div(style='align-items: center; \
+    justify-content: center; \
+    text-align: center;\
+    top:50%;\
+    display: flex;\
+    height: 30vh;\
+    background-color: lightcyan;\
+    padding: 20px;') PRESENTATION TOPIC
+    br
+    nav.nav-items
+      ul#pillNav2.nav.nav-pills.nav-fill.gap-2.p-1.small.bg-primary.rounded-5.shadow-sm(role='tablist' style='--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);')
+        li.nav-item(role='presentation')
+          button#home-tab2.nav-link.active.rounded-5(data-bs-toggle='tab' type='button' role='tab' aria-selected='true') Home
+        li.nav-item(role='presentation')
+          button#profile-tab2.nav-link.rounded-5(data-bs-toggle='tab' type='button' role='tab' aria-selected='false') MicroFrontend
+        li.nav-item(role='presentation')
+          button#contact-tab2.nav-link.rounded-5(data-bs-toggle='tab' type='button' role='tab' aria-selected='false') MEAN
+        li.nav-item(role='presentation')
+          button#contact-tab2.nav-link.rounded-5(data-bs-toggle='tab' type='button' role='tab' aria-selected='false') MERN
+        li.nav-item(role='presentation')
+          button#contact-tab2.nav-link.rounded-5(data-bs-toggle='tab' type='button' role='tab' aria-selected='false') DEVOPS
+    br
+    div(style='display: flex; justify-content: center; align-items: center; text-align: center; height: 40vh; background-color: darkgray;')
+      | WELCOME IN PROJECT HTML
+    script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
